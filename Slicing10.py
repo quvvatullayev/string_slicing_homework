@@ -10,3 +10,5 @@ def main(s,n,k):
     s string o'zgaruvchisi berilgan. n indeksidan k indeksiga qaytish
     """
     return s[k:n]
+
+print("Quvvatullayev", 4, 8)
