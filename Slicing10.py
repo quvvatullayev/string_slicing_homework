@@ -7,5 +7,6 @@ def main(s,n,k):
         k(int): parameter
     Returns:
         str: answer
+    s string o'zgaruvchisi berilgan. n indeksidan k indeksiga qaytish
     """
-    return s[k - n]
+    return s[k:n]
